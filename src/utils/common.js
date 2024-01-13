@@ -15,4 +15,4 @@ export const sliderSettings={
             slidesPerView:4
         }
     }
-}
+} 

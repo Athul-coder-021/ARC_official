@@ -21,8 +21,8 @@ export default function landingpage() {
       <video src={Video} autoPlay loop muted onEnded={restartVideo} />
       {/* <div className="content"> */}
         <h1>ARC ROBOTICS</h1>
-        <p>Where Innovation Begins</p>
-        <a href="#" class="boxBtn">Learn More</a>
+        <p>where Innovation Begins</p>
+        <a href="/blog" class="boxBtn">Learn More</a>
       {/* </div> */}
     </div>
     </>

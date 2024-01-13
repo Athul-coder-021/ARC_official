@@ -3,6 +3,7 @@ import React from 'react';
 import Blog from './Blog';
 import "./Blog.css";
 import Footer from '../Footer';
+import ParticleContainer from '../ParticleContainer';
 
 const BlogSection = () => {
   const blogs = [
@@ -18,16 +19,27 @@ const BlogSection = () => {
     
   ];
 
+  const design=[
+    { title: 'JavaScript Best Practices', pdfUrl: '/pdfs/fusion_360.pdf',text:'trial 2', imgUrl:'../../gallery/beeintro.webp' },
+  ];
   return (
     <>
-    <div className="backgroundimg" style={{ paddingTop: "120px" }}>
+    <ParticleContainer/>
+    <div className="backgroundimg2" style={{ paddingTop: "120px" }}>
     <div className='container'>
       <h1 className="section-title" >Blog Section</h1>
+      <h1 className="section-subheading" >Basic Electrical Engineering</h1>
       <div class="row row-cols-1 row-cols-md-3 g-4">
       {blogs.map((blog, index) => (
         <Blog key={index} {...blog} />
         ))}
         </div>
+      <h1 className="section-subheading" >Fusion 360</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+      {design.map((blog, index) => (
+        <Blog key={index} {...blog} />
+        ))}
+        </div> 
     </div>
     <Footer/>
     </div>

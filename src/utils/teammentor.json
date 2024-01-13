@@ -1,9 +1,11 @@
 [
     {
-      "name": "Aliva Priva Jardin",
-      "role": "Web devloper",
+      "name": "Dr. Amit Kumar",
+      "role": "Assistant Professor Department of CSE",
       "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-      "image": "./r1.png"
+      "image": "./teamgallery/mentor.jpg",
+      "linkedin":"https://www.linkedin.com/in/amit-kumar-41b91536/",
+      "instagram":""
     }
 
   ]

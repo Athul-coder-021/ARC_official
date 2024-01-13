@@ -1,0 +1,52 @@
+[
+    {
+      "name": "Anany Srivastava",
+      "role": "Web devloper",
+      "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+      "image": "./teamgallery/Anany_Srivastava.jpeg",
+      "linkedin":"https://www.linkedin.com/in/anany-srivastava-81a582257/",
+      "instagram":  ""
+    },
+    {
+      "name": "Athul Krishna",
+      "role": "Web devloper",
+      "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+      "image": "./teamgallery/athul.jpg",
+      "linkedin":"https://www.linkedin.com/in/athul-krishna-k-r-73165b255/",
+      "instagram":  ""
+    },
+    {
+      "name": "Bhavesh pareek",
+      "role": "Web devloper",
+      "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+      "image": "./teamgallery/Harsh_Jaiswal.jpeg",
+      "linkedin":"https://www.linkedin.com/in/athul-krishna-k-r-73165b255/",
+      "instagram":  ""
+    },
+    {
+      "name": "Sakthivel",
+      "role": "Web devloper", 
+      "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+      "image": "./teamgallery/Shaktivel.jpeg",
+      "linkedin":"https://www.linkedin.com/in/sakthivel-k-20878425b/",
+      "instagram":  ""
+    },
+    {
+      "name": "Utkarsh Pradhan",
+      "role": "Web devloper",
+      "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+      "image": "./teamgallery/Utkarsh_pradhan.jpeg",
+      "linkedin":"https://www.linkedin.com/in/utkarsh-pradhan-545664248/",
+      "instagram":  ""
+    },
+    {
+      "name": "Yash Goyal",
+      "role": "Web devloper",
+      "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+      "image": "./teamgallery/yash-goyal.jpg",
+      "linkedin":"https://www.linkedin.com/in/yash-goyal-bba236246/",
+      "instagram":  ""
+    }   
+
+  ]
+  

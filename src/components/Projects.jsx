@@ -4,15 +4,17 @@ import "swiper/css"
 import './Projects.css'
 import data from '../utils/project.json'
 import { sliderSettings } from '../utils/common';
+
 const Events = () => {
   return (
     <section id='projects' className="r-wrapper">
         <div className="paddings innerWidth r-container">
             <div className="r-head flexColStart">
                 <span className='orangeText proHead'>Projects</span>
-                <span className='primaryText proSubheading'>Our Creations</span>
+                
             </div> 
-            <Swiper {...sliderSettings}>
+            <div className='primaryText proSubheading '>Our Creations</div>
+            <Swiper {...sliderSettings}> 
                 <SliderButtons/>
                 {
                     data.map((card,i)=>(
@@ -21,17 +23,17 @@ const Events = () => {
                                 <img src={card.image} alt="home"/>
 
                                 <span className='secondaryText r-price'>
-                                    <span style={{color:"orange"}}>$</span><span>{card.price}</span>
+                                    {/* <span style={{color:"orange"}}>$</span><span>{card.price}</span> */}
                                 </span>
                                 <span className='primaryText'>{card.name}</span>
-                                <span className='secondaryText'>{card.detail}</span>
+                                <span className=' secondarySpace secondaryText'>{card.detail}</span>
                             </div>
                         </SwiperSlide>
                     ))
                 }
             </Swiper>
         </div> 
-    </section>
+    </section>   
   ) 
 } 
 

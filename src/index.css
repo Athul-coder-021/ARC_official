@@ -81,9 +81,11 @@ a{
 
 .primaryText{
   /* color: #1f3e72; */
-  color: #035cf7;
+  color: #659eff;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 2.3rem;
+  margin-top: -0.5rem;
+  margin-bottom: 0.5rem;
 }
 .secondaryText {
   color: white;
@@ -91,7 +93,8 @@ a{
 }
 .secondaryText2 {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.0rem;
+  line-height: 1.65rem;
 }
 .orangeText {
   color: orange;
@@ -99,7 +102,7 @@ a{
   font-weight: 600;
 }
 .orangeText2 {
-  color: orange;
+  color: rgb(255, 136, 0);
   font-size: 1.2rem;
   font-weight: 600;
 }
@@ -123,7 +126,10 @@ transition: all 300ms ease-in;
     /* background-image: url('../public/bg2.png'); 
     background-size: cover;
     box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.6); */
-    background-color: rgb(3, 8, 45);
+    /* background-color: rgb(12, 17, 55); */
+    /* background-color: black; */
+    background-color: rgb(12, 17, 55);
+    /* background-color: rgb(3, 8, 45); */
 }
 .ruler{
   color: white;

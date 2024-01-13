@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
-import { Link as RouterLink } from 'react-router-dom';
+import { Link as RouterLink, useLocation } from 'react-router-dom';
 import logo from './arc1-removebg-preview-new.png';
 import './Header.css';
 import { BiMenuAltRight } from 'react-icons/bi';
@@ -8,30 +8,45 @@ import OutsideClickHandler from 'react-outside-click-handler';
 
 export default function Header() {
   const [menuOpened, setMenuOpened] = useState(false);
+  const [scrolling, setScrolling] = useState(false);
+
+  const location = useLocation();
+  const isFixedNavbarPage = ['/team', '/gallery', '/blog'].includes(location.pathname);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (!isFixedNavbarPage && window.scrollY > 30) {
+        setScrolling(true);
+      } else {
+        setScrolling(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [isFixedNavbarPage]);
 
   const getMenuStyles = (menuOpened) => {
-    if (document.documentElement.clientWidth <= 800) {
+    if (!isFixedNavbarPage && document.documentElement.clientWidth <= 800) {
       return { right: !menuOpened && '-100%' };
     }
   };
 
-  const scrollToTop = () => {
-    scroll.scrollToTop();
-    setMenuOpened(false);
-  };
   const scrollToTopOrHome = () => {
     if (window.location.pathname === '/') {
-      // If already on the home page, scroll to top
       scroll.scrollToTop();
     } else {
-      // If not on the home page, navigate to the home page
       setMenuOpened(false);
       window.location.href = '/';
     }
   };
+
   return (
-    <section className="h-wrapper">
-      <div className="flexCenter paddings innerWidth h-container">
+    <section className={`h-wrapper ${scrolling && !isFixedNavbarPage ? 'scrolled' : ''} ${isFixedNavbarPage ? 'absolute-navbar' : ''}`}>
+      <div className={`flexCenter paddings innerWidth h-container ${isFixedNavbarPage ? 'fixed-navbar' : ''}`}>
         <img src={logo} alt="Logo" className="about-image" width={100} />
 
         <OutsideClickHandler

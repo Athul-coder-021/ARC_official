@@ -20,6 +20,7 @@ import lgRotate from 'lightgallery/plugins/rotate';
  
 import './Galleryoutput.css'
 import Footer from './Footer';
+import ParticleContainer from './ParticleContainer';
 const images = [
     { src: "../gallery/img1.jpg", alt: "1" },
     { src: "../gallery/img2.jpg", alt: "2" },
@@ -48,28 +49,27 @@ const Galleryoutput=()=> {
     };
     return (
         <>
-        <div className="backgroundimg"style={{ paddingTop: "120px" }}>
-        <div className="container">
-            <h1 className="orangeText galleryheading">ARC GALLERY</h1>
-            <LightGallery
-                onInit={onInit}
-                speed={500}
-                plugins={[lgThumbnail, lgZoom, lgAutoplay, lgFullscreen, lgRotate, lgShare]}
-            >
-
-                {images.map((image, index) => {
-                    return (
-                        <a href={image.src} key={index}>
-                            <img alt={image.alt} src={image.src} />
-                        </a>
-                    )
-                })}
-
-
-            </LightGallery>
-        </div>
-        <Footer/>
-        </div>
+        {/* <ParticleContainer/> */}
+        <div className="backgroundimg" style={{ paddingTop: "120px" }}>
+                <div className="container">
+                    <h1 className="orangeText galleryheading">ARC GALLERY</h1>
+                    <LightGallery
+                        onInit={onInit}
+                        speed={500}
+                        plugins={[lgThumbnail, lgZoom, lgAutoplay, lgFullscreen, lgRotate, lgShare]}
+                    >
+                        {images.map((image, index) => {
+                            return (
+                                <a href={image.src} key={index} className="gallery-item">
+                                    <img alt={image.alt} src={image.src} />
+                                    <span className="tooltip fs-2 " style={{color:"rgba(255,255,255,0.4)"}}>Click here</span>
+                                </a>
+                            )
+                        })}
+                    </LightGallery>
+                </div>
+                <Footer />
+            </div>
         </>
     );
 }

@@ -2,13 +2,16 @@ import React from "react";
 import TeamMember from "./TeamMember";
 import teamData from "../utils/team.json";
 import teamDataMentor from "../utils/teammentor.json";
+import teamDataSecYear from "../utils/team2ndyear.json";
 import "./TeamMember.css"; // Import your main styling file
 import Footer from "./Footer";
 import "./TeamMember.css";
+import ParticleContainer from "./ParticleContainer";
 const App = () => {
   return (
     <>
-      <div className="backgroundimg">
+    <ParticleContainer/>
+      <div className="backgroundimg2">
         {/* <div className="team">
       <h1 className="orangeText">Our Team</h1>
       <h1 style={{color:"white"}}>Our Mentor</h1>
@@ -20,7 +23,7 @@ const App = () => {
       <h1 style={{color:"white"}}>4th Year</h1>
       <div className="rowss">
         {teamData.map((member, index) => (
-          <TeamMember key={index} {...member} />
+          <TeamMember key={index} {...member} /> 
         ))}
       </div>
 
@@ -51,10 +54,19 @@ const App = () => {
           </div>
           <h1 class="heading">
             <i class="fas fa-rocket"></i>
-            <strong>Our Team</strong>
+            <strong>Our Team - 3rd Year</strong>
           </h1>
           <div class="containerTeam">
             {teamData.map((member, index) => (
+              <TeamMember key={index} {...member} />
+            ))}
+          </div>
+          <h1 class="heading">
+            <i class="fas fa-rocket"></i>
+            <strong>Our Team - 2nd Year</strong>
+          </h1>
+          <div class="containerTeam">
+            {teamDataSecYear.map((member, index) => (
               <TeamMember key={index} {...member} />
             ))}
           </div>
@@ -66,3 +78,4 @@ const App = () => {
 };
 
 export default App;
+ 

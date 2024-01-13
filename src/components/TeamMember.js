@@ -1,7 +1,7 @@
 import React from "react";
 import "./TeamMember.css";
 
-const TeamMember = ({ name, role, detail, image }) => {
+const TeamMember = ({ name, role, detail, image,instagram,linkedin }) => {
   return (
     
     // <div className="columnss"> 
@@ -23,7 +23,7 @@ const TeamMember = ({ name, role, detail, image }) => {
     //         <i className="fas fa-envelope"></i>
     //       </a>
     //     </div>
-    //   </div>
+    //   </div>  
     // </div>
     <div class="boxer">
     <div class="top-bar"></div>
@@ -40,8 +40,8 @@ const TeamMember = ({ name, role, detail, image }) => {
     </div>
 
     <div class="btnTeam">
-      <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i className="fab fa-linkedin"></i></a>
+      <a href={instagram}  target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href={linkedin} target="_blank"><i className="fab fa-linkedin"></i></a>
     </div>
   </div>    
   );

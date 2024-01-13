@@ -1,39 +1,75 @@
 [
     {
-      "name": "Aliva Priva Jardin",
-      "role": "Web devloper",
+      "name": "Granth Gupta",
+      "role": "Coordinator ARC Robotics",
       "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-      "image": "./r1.png"
+      "image": "./teamgallery/Granth_Gupta.jpeg",
+      "linkedin":"https://www.linkedin.com/in/granth-gupta-3b9648238/",
+      "instagram":""
     },
     {
-      "name": "Asatti Garden City",
+      "name": "Akshat Prasad",
       "role": "Web devloper",
       "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-      "image": "./r2.png"
+      "image": "./teamgallery/Akshat_prasad.jpeg",
+      "linkedin":"https://www.linkedin.com/in/akshath-prasad-32b838242/ ",
+      "instagram":""
     },
     {
-      "name": "Citralan Puri Serang",
+      "name": "Harsh Jaiswal",
       "role": "Web devloper",
       "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-      "image": "./r3.png"
+      "image": "./teamgallery/Harsh_Jaiswal.jpeg",
+      "linkedin":"https://www.linkedin.com/in/harsh-jaiswal-735270224/",
+      "instagram":""
     },
     {
-      "name": "Aliva Priva Jardin",
-      "role": "Web devloper",
+      "name": "Ishan Bajaj",
+      "role": "Web devloper", 
       "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-      "image": "./r1.png"
+      "image": "./teamgallery/Ishan_bajaj.jpeg",
+      "linkedin":"https://www.linkedin.com/in/ishan-bajaj007/",
+      "instagram":""
     },
     {
-      "name": "Asatti Garden City",
+      "name": "Lakshya Gupta",
       "role": "Web devloper",
       "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-      "image": "./r2.png"
+      "image": "./teamgallery/Lakshya_gupta.jpeg",
+      "linkedin":"https://www.linkedin.com/in/lakshyagupta123/",
+      "instagram":""
     },
     {
-      "name": "Citralan Puri Serang",
+      "name": "Soutabh Mittal",
       "role": "Web devloper",
       "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-      "image": "./r3.png"
+      "image": "./teamgallery/Sourabh_mittal.jpeg",
+      "linkedin":"https://www.linkedin.com/in/sourabh-mittal-054a00229/",
+      "instagram":""
+    },
+    {
+      "name": "Sarthak Verma",
+      "role": "Web devloper",
+      "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+      "image": "./teamgallery/Sarthak_verma.jpeg",
+      "linkedin":"https://www.linkedin.com/in/amit-kumar-41b91536/",
+      "instagram":""
+    },
+    {
+      "name": "Umang Jaiswal",
+      "role": "Web devloper",
+      "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+      "image": "./teamgallery/Umang_Jaiswal.jpeg",
+      "linkedin":"https://www.linkedin.com/in/umang-jaiswal-b96b542a2/",
+      "instagram":""
+    },
+    {
+      "name": "Yug Modi",
+      "role": "Web devloper",
+      "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+      "image": "./teamgallery/yug-modi.jpg",
+      "linkedin":"https://www.linkedin.com/in/yug-modi-27b965215/",
+      "instagram":""
     }
   ]
   

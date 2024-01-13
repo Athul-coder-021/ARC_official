@@ -10,8 +10,8 @@ const Events = () => {
         <div className="paddings innerWidth r-container">
             <div className="r-head flexColStart">
                 <span className='orangeText eventHead'>Recent Events</span>
-                <span className='primaryText eventSubheading'>Featured Event Details</span>
             </div> 
+                <div className='primaryText eventSubheading'>Featured Event Details</div>
             <Swiper {...sliderSettings}>
                 <SliderButtons/>
                 {
@@ -21,7 +21,7 @@ const Events = () => {
                                 <img src={card.image} alt="home"/>
 
                                 <span className='secondaryText r-price'>
-                                    <span style={{color:"orange"}}>$</span><span>{card.price}</span>
+                                    {/* <span style={{color:"orange"}}>$</span><span>{card.price}</span> */}
                                 </span>
                                 <span className='primaryText'>{card.name}</span>
                                 <span className='secondaryText'>{card.detail}</span>
@@ -29,8 +29,8 @@ const Events = () => {
                         </SwiperSlide>
                     ))
                 }
-            </Swiper>
-        </div> 
+            </Swiper> 
+        </div>   
     </section>
   )
 } 

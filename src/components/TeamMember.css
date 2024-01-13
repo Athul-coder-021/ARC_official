@@ -27,7 +27,7 @@ a{
   color: white;
   font-weight: 500;
   display: flex;
-  align-items: center;
+  align-items: center; 
   margin: 20px;
 }
 
@@ -36,7 +36,7 @@ a{
   color: #fff;
   width: 50px;
   height: 50px;
-  display: flex;
+  display: flex; 
   justify-content: center;
   align-items: center;
   font-size: 0.9rem;
@@ -109,8 +109,8 @@ a{
 }
 
 .details img {
-  width: 100px;
-  height: 100px;
+  width: 146px;
+  height: 146px;
   border-radius: 50%;
   overflow: hidden;
   object-fit: cover;

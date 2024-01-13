@@ -1,39 +1,33 @@
 [
     {
-      "name": "Aliva Priva Jardin",
-      "price": "47,043",
-      "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-      "image": "./r1.png"
+      "name": "Obstacle Avoidance Bot",
+      "detail": "Robot senses obstacles, auto-navigates, and avoids collisions by changing direction autonomously.",
+      "image": "./projectgallery/Obstacle_avoidance_bot.jpeg"
     },
     {
-      "name": "Asatti Garden City",
-      "price": "66,353",
-      "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-      "image": "./r2.png"
+      "name": "Line Follower Bot",
+      "detail": "Automated robot follows visual line on surface for autonomous navigation.",
+      "image": "./projectgallery/Line_follower_bot.jpeg"
     },
     {
-      "name": "Citralan Puri Serang",
-      "price": "35,853",
-      "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-      "image": "./r3.png"
+      "name": "Bluetooth Controlled Bot",
+      "detail": "Bluetooth robot controlled by Android, with gesture, obstacle, and RF capabilities.",
+      "image": "./projectgallery/Bluetooth_Controlled_Bot.jpeg"
     },
     {
-      "name": "Aliva Priva Jardin",
-      "price": "47,043",
-      "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-      "image": "./r1.png"
+      "name": "Laser Writing",
+      "detail": " Precision writing method using laser for accurate and intricate applications.",
+      "image": "./projectgallery/Laser_Writing.jpeg"
     },
     {
-      "name": "Asatti Garden City",
-      "price": "66,353",
-      "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-      "image": "./r2.png"
+      "name": "Gesture Controlled Bot",
+      "detail": "Hand-gesture controls guide a robot through a compact accelerometer-equipped transmitter.",
+      "image": "./projectgallery/gesture_control.jpeg"
     },
     {
-      "name": "Citralan Puri Serang",
-      "price": "35,853",
-      "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-      "image": "./r3.png"
+      "name": "Flappy Bird game",
+      "detail": "Flappy Bird game: Simple, addictive .",
+      "image": "./projectgallery/Flappy_bird.png"
     }
   ]
   

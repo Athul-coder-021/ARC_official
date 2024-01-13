@@ -1,24 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Montserrat&display=swap');
 
 .h-wrapper {
-    background-color: rgba(18, 27, 85, 0.8);
+    /* background-color: rgba(18, 27, 85, 0.8); */
     color: white;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 2;
+    height: 100px;
   }
-  
+
+.absolute-navbar {
+    position: absolute;
+    /* Add other styles for absolute-navbar here */
+}  
 
 .h-container{
     justify-content: space-between;
-    padding-top: 0.0rem;
-    padding-bottom: 0.0rem;
-    color: var(--secondary);
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    color: var(--secondary); 
 }
 
 .h-menu{
     gap: 2rem;
+
 }
 
 .h-menu>*:hover,.h-menu a:hover {
@@ -26,6 +32,11 @@
     cursor: pointer;
     /* color: red; */
 }
+.h-wrapper.scrolled {
+    /* background-color:rgba(223, 146, 3, 0.897); */
+    background-color: rgba(18, 27, 85, 0.8);
+    transition: background-color 0.3s ease; 
+  }
 .scroller{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -61,3 +72,4 @@
     }
 
 }
+

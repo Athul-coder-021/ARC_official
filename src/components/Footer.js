@@ -16,7 +16,7 @@ const Footer = () => {
                                 <i class="fab fa-facebook"></i>
                                 <i class="fab fa-twitter"></i>
                                 <i class="fab fa-instagram"></i>
-                                <i class="fab fa-linkedin-in"></i>
+                                <a href=''><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-3 col-12 ft-2 quicktext">
@@ -26,27 +26,21 @@ const Footer = () => {
                                     <a className="" href="/">Home</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="" href="/">Blogs</a>
+                                    <a className="" href="/blog">Blogs</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="" href="/">Gallery</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="" href="/">Achievments</a>
+                                    <a className="" href="/gallery">Gallery</a>
                                 </li>
                             </ul>
                         </div>
                         <div className="col-md-6 col-lg-3 col-12 ft-2 quicktext">
                             <h5>Quick Links</h5>
                             <ul>
-                            <li className="nav-item">
-                                    <a className="" href="/">Project</a>
+                                <li className="nav-item">
+                                    <a className="" href="/team">Team</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="" href="/">Team</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="" href="/">IIIT KOTA</a>
+                                    <a className="" href="https://iiitkota.ac.in/">IIIT KOTA</a>
                                 </li>
                                 </ul>
                         </div>
