@@ -15,7 +15,7 @@ const Blog = ({ title, pdfUrl, text, imgUrl }) => {
         <h5 class="card-title primaryTextnew">{title}</h5>
         <p class="card-text secondaryText">{text}</p>
         <button
-          type="button"
+          type="button" 
           className="download-button btn button-color buttonBlog"
           onClick={handleDownload}
         >

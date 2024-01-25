@@ -24,7 +24,7 @@ const App = () => {
       <div className="rowss">
         {teamData.map((member, index) => (
           <TeamMember key={index} {...member} /> 
-        ))}
+        ))} 
       </div>
 
       <h1 style={{color:"white"}}>3rd Year</h1>

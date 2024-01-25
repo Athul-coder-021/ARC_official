@@ -58,14 +58,14 @@ export default function Header() {
             <ScrollLink to="/" onClick={scrollToTopOrHome} smooth={true} duration={100} className='scroller'>
               Home
             </ScrollLink>
+            <ScrollLink to="projects" smooth={true} duration={100} className='scroller'>
+              Projects
+            </ScrollLink>
             <ScrollLink to="about" smooth={true} duration={100} className='scroller'>
               About
             </ScrollLink>
             <ScrollLink to="events" smooth={true} duration={100} className='scroller'>
               Events
-            </ScrollLink>
-            <ScrollLink to="projects" smooth={true} duration={100} className='scroller'>
-              Projects
             </ScrollLink>
             <RouterLink to="team" className='scroller'>
               Team

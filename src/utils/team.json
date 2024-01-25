@@ -9,7 +9,6 @@
     },
     {
       "name": "Akshat Prasad",
-      "role": "Web devloper",
       "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
       "image": "./teamgallery/Akshat_prasad.jpeg",
       "linkedin":"https://www.linkedin.com/in/akshath-prasad-32b838242/ ",
@@ -17,15 +16,14 @@
     },
     {
       "name": "Harsh Jaiswal",
-      "role": "Web devloper",
-      "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+       "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
       "image": "./teamgallery/Harsh_Jaiswal.jpeg",
       "linkedin":"https://www.linkedin.com/in/harsh-jaiswal-735270224/",
       "instagram":""
     },
     {
       "name": "Ishan Bajaj",
-      "role": "Web devloper", 
+
       "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
       "image": "./teamgallery/Ishan_bajaj.jpeg",
       "linkedin":"https://www.linkedin.com/in/ishan-bajaj007/",
@@ -33,7 +31,6 @@
     },
     {
       "name": "Lakshya Gupta",
-      "role": "Web devloper",
       "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
       "image": "./teamgallery/Lakshya_gupta.jpeg",
       "linkedin":"https://www.linkedin.com/in/lakshyagupta123/",
@@ -41,7 +38,6 @@
     },
     {
       "name": "Soutabh Mittal",
-      "role": "Web devloper",
       "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
       "image": "./teamgallery/Sourabh_mittal.jpeg",
       "linkedin":"https://www.linkedin.com/in/sourabh-mittal-054a00229/",
@@ -49,7 +45,6 @@
     },
     {
       "name": "Sarthak Verma",
-      "role": "Web devloper",
       "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
       "image": "./teamgallery/Sarthak_verma.jpeg",
       "linkedin":"https://www.linkedin.com/in/amit-kumar-41b91536/",
@@ -57,7 +52,6 @@
     },
     {
       "name": "Umang Jaiswal",
-      "role": "Web devloper",
       "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
       "image": "./teamgallery/Umang_Jaiswal.jpeg",
       "linkedin":"https://www.linkedin.com/in/umang-jaiswal-b96b542a2/",
@@ -65,7 +59,6 @@
     },
     {
       "name": "Yug Modi",
-      "role": "Web devloper",
       "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
       "image": "./teamgallery/yug-modi.jpg",
       "linkedin":"https://www.linkedin.com/in/yug-modi-27b965215/",

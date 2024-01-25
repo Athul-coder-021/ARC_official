@@ -7,20 +7,20 @@ import ParticleContainer from '../ParticleContainer';
 
 const BlogSection = () => {
   const blogs = [
-    { title: 'JavaScript Best Practices', pdfUrl: '/pdfs/bee_intro.pdf',text:'trial 2', imgUrl:'../../gallery/beeintro.webp' },
-    { title: 'JavaScript Best Practices', pdfUrl: '/pdfs/BEE_CKTELE.pdf',text:'trial 2', imgUrl:'../../gallery/circuitelements.webp' },
-    { title: 'JavaScript Best Practices', pdfUrl: '/pdfs/BEE_DIODES.pdf',text:'trial 2', imgUrl:'../../gallery/diode.webp' },
-    { title: 'JavaScript Best Practices', pdfUrl: '/pdfs/BEE_SWITCHES.pdf',text:'trial 2', imgUrl:'../../gallery/switch.webp' },
-    { title: 'JavaScript Best Practices', pdfUrl: '/pdfs/BEE_TRANSISTORS.pdf',text:'trial 2', imgUrl:'../../gallery/transistor.webp' },
-    { title: 'JavaScript Best Practices', pdfUrl: '/pdfs/BEE_TRANSFORMER.pdf',text:'trial 2', imgUrl:'../../gallery/transformer.webp' },
-    { title: 'JavaScript Best Practices', pdfUrl: '/pdfs/BEE_WIRES.pdf',text:'trial 2', imgUrl:'../../gallery/wires.webp' },
-    { title: 'Introduction to React', pdfUrl: '/pdfs/BEE_BATTERIES.pdf',text:'athul boss', imgUrl:'../../gallery/battery.webp'},
-    { title: 'JavaScript Best Practices', pdfUrl: '/pdfs/BEE_INSTRUMENTS.pdf',text:'trial 2', imgUrl:'../../gallery/instruments.webp' },
+    { title: 'Introduction', pdfUrl: '/pdfs/bee_intro.pdf',text:'Transforming Lives through Robotic Innovation.', imgUrl:'../../gallery/beeintro.webp' },
+    { title: 'Circuit Elements', pdfUrl: '/pdfs/BEE_CKTELE.pdf',text:'Exploring Circuit Elements: Bridging Science and Daily Life in Robotics', imgUrl:'../../gallery/circuitelements.webp' },
+    { title: 'Diodes', pdfUrl: '/pdfs/BEE_DIODES.pdf',text:'Unveiling Diodes: Guiding Current, Empowering Electronics.', imgUrl:'../../gallery/diode.webp' },
+    { title: 'Switch and Relays', pdfUrl: '/pdfs/BEE_SWITCHES.pdf',text:'Switches and Relays: Unveiling the Magic in Electrical Control.', imgUrl:'../../gallery/switch.webp' },
+    { title: 'Transistors', pdfUrl: '/pdfs/BEE_TRANSISTORS.pdf',text:'Transistors: Shrinking Possibilities, Expanding Horizons.', imgUrl:'../../gallery/transistor.webp' },
+    { title: 'Transformers', pdfUrl: '/pdfs/BEE_TRANSFORMER.pdf',text:'Transformers: Powering the Present, Shaping the Future.', imgUrl:'../../gallery/transformer.webp' },
+    { title: 'Wires', pdfUrl: '/pdfs/BEE_WIRES.pdf',text:'Wired for Success: The Lifelines of BEE and Robotics.', imgUrl:'../../gallery/wires.webp' },
+    { title: 'Batteries', pdfUrl: '/pdfs/BEE_BATTERIES.pdf',text:'Batteries: Powering Possibilities in Robotics and Beyond.', imgUrl:'../../gallery/battery.webp'},
+    { title: 'Instruments', pdfUrl: '/pdfs/BEE_INSTRUMENTS.pdf',text:'Instruments of Innovation: Crafting Robotics Excellence.', imgUrl:'../../gallery/instruments.webp' },
     
   ];
 
   const design=[
-    { title: 'JavaScript Best Practices', pdfUrl: '/pdfs/fusion_360.pdf',text:'trial 2', imgUrl:'../../gallery/beeintro.webp' },
+    { title: 'Getting Started with Fusion 360', pdfUrl: '/pdfs/fusion_360.pdf',text:'Crafting Dimensions: Fusion 360 for 3D Modeling Enthusiasts', imgUrl:'../../gallery/beeintro.webp' },
   ];
   return (
     <>
@@ -48,4 +48,4 @@ const BlogSection = () => {
 };
 
 export default BlogSection;
- 
+  

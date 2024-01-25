@@ -40,7 +40,7 @@ const Footer = () => {
                                     <a className="" href="/team">Team</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="" href="https://iiitkota.ac.in/">IIIT KOTA</a>
+                                    <a className="" href="https://iiitkota.ac.in/" target = "_blank">IIIT KOTA</a>
                                 </li>
                                 </ul>
                         </div>
@@ -50,9 +50,10 @@ const Footer = () => {
             </div>
             <div className='Last-footer'>
                 <p>© 2023 ARC ROBOTICS</p>
+                <p className='chota'>Developed By Athul Krishna</p>
             </div>
         </>
-    ) 
+    )  
 }
 
 export default Footer

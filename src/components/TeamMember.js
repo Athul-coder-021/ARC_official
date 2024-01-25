@@ -48,4 +48,4 @@ const TeamMember = ({ name, role, detail, image,instagram,linkedin }) => {
 };
 
 export default TeamMember;
- 
+  
